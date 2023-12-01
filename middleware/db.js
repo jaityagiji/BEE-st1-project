@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const uri = "mongodb+srv://jivansh_Tyagi:fuckyou007@atlascluster.0psd8as.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://<Username>:<Password>@atlascluster.0psd8as.mongodb.net/?retryWrites=true&w=majority";
 
 exports.connectToDb = () => {
     mongoose.connect(uri)
